@@ -1,0 +1,29 @@
+<div class="container">
+  <div *ngIf="isLoading" class="spinner-overlay">
+    <mat-progress-spinner
+      class="spinner"
+      color="primary"
+      mode="indeterminate"
+    ></mat-progress-spinner>
+  </div>
+  <div class="container-btns">
+    <mat-button-toggle-group>
+      <mat-button-toggle (click)="toggleDisplayMode('cards')">
+        <mat-icon>grid_view</mat-icon>
+      </mat-button-toggle>
+      <mat-button-toggle (click)="toggleDisplayMode('table')">
+        <mat-icon>table_view</mat-icon>
+      </mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+
+  <!-- Lista de cards -->
+  <ng-container *ngIf="displayMode === 'cards'">
+    <app-card [characters]="characters"></app-card>
+  </ng-container>
+
+  <!-- Tabla -->
+  <ng-container *ngIf="displayMode === 'table'">
+    <app-grid [characters]="characters"></app-grid>
+  </ng-container>
+</div>

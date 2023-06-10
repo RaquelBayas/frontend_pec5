@@ -1,0 +1,80 @@
+<div class="container-btn">
+  <div class="container-btn-2">
+    <button type="button" class="btn btn-danger details-btn" (click)="goBack()">Back</button>
+    <button type="button" class="btn btn-primary details-btn" (click)="showContainer = true">Show all details</button>
+  </div>
+</div>
+<div style="text-align: center">
+  <h1>{{ character.name }}</h1>
+</div>
+
+<div *ngIf="showContainer" class="container">
+  <div>
+    <img mat-card-image [src]="character.image" alt="{{ character.name }}" />
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>{{ character.name }}</td>
+      </tr>
+
+      <tr>
+        <th>Species</th>
+        <td>{{ character.species }}</td>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <td>{{ character.gender }}</td>
+      </tr>
+      <tr>
+        <th>House</th>
+        <td>{{ character.house }}</td>
+      </tr>
+      <tr>
+        <th>Date of Birth</th>
+        <td>{{ character.dateOfBirth }}</td>
+      </tr>
+      <tr>
+        <th>Year of Birth</th>
+        <td>{{ character.yearOfBirth }}</td>
+      </tr>
+      <tr>
+        <th>Wizard</th>
+        <td>{{ character.wizard }}</td>
+      </tr>
+      <tr>
+        <th>Ancestry</th>
+        <td>{{ character.ancestry }}</td>
+      </tr>
+      <tr>
+        <th>Eye colour</th>
+        <td>{{ character.eyeColour }}</td>
+      </tr>
+      <tr>
+        <th>Hair colour</th>
+        <td>{{ character.hairColour }}</td>
+      </tr>
+      <tr>
+        <th>Patronus</th>
+        <td>{{ character.patronus }}</td>
+      </tr>
+      <tr>
+        <th>Hogwarts Student</th>
+        <td>{{ character.hogwartsStudent }}</td>
+      </tr>
+      <tr>
+        <th>Hogwarts Staff</th>
+        <td>{{ character.hogwartsStaff }}</td>
+      </tr>
+      <tr>
+        <th>Actor</th>
+        <td>{{ character.house }}</td>
+      </tr>
+      <tr>
+        <th>Alive</th>
+        <td>{{ character.alive }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

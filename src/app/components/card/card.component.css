@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+mat-card-title {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+mat-card {
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px #b5a879;
+}
+
+.card-container mat-card {
+  cursor: pointer;
+}
+
+.mat-list-horizontal {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,22 @@
+export interface Character {
+    id: string,
+    name: string,
+    alternate_name: JSON,
+    species: string,
+    gender: string,
+    house: string,
+    dateOfBirth: string,
+    yearOfBirth: number,
+    wizard: boolean,
+    ancestry: string,
+    eyeColour: string,
+    hairColour: string,
+    wand: JSON,
+    patronus: string,
+    hogwartsStudent: boolean,
+    hogwartsStaff: boolean,
+    actor: string,
+    alternate_actors: JSON,
+    alive: boolean,
+    image: string
+}
