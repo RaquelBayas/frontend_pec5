@@ -5,24 +5,22 @@ import { Character } from '../models/character.interface';
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrls: ['./list.component.css']
+  styleUrls: ['./list.component.css'],
 })
 export class ListComponent {
-
   characters: Character[] = [];
   displayMode: 'cards' | 'table' = 'cards';
   isLoading: boolean = true;
+  visibleItems: number = 50;
+  itemsPerLoad: number = 50;
 
-  constructor(
-    private potterService: PotterService,
-  ) {
-  }
+  constructor(private potterService: PotterService) {}
 
   ngOnInit(): void {
+    this.isLoading = true;
     this.potterService.getAllCharacters().subscribe((data: any) => {
-      this.characters = data;
-      this.isLoading = false; 
-      console.log(this.characters);
+      this.characters = data.slice(0, this.visibleItems);
+      this.isLoading = false;
     });
   }
 

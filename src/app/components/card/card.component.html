@@ -1,30 +1,35 @@
 <div class="card-container">
-    <mat-card
-      *ngFor="let character of characters"
-      [routerLink]="['/characters', character.id]"
-    >
-      <mat-card-header>
-        <mat-card-title>{{ character.name }}</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <mat-list class="mat-list-horizontal">
-          <mat-list-item>
-            <span matListItemTitle>Species</span>
-            <span matListItemLine>{{ character.species }}</span>
-          </mat-list-item>
-          <mat-list-item>
-            <span matListItemTitle>Gender</span>
-            <span matListItemLine>{{ character.gender }}</span>
-          </mat-list-item>
-          <mat-list-item>
-            <span matListItemTitle>House</span>
-            <span matListItemLine>{{ character.house }}</span>
-          </mat-list-item>
-          <mat-list-item>
-            <span matListItemTitle>Ancestry</span>
-            <span matListItemLine>{{ character.ancestry }}</span>
-          </mat-list-item>
-        </mat-list>
-      </mat-card-content>
-    </mat-card>
+  <mat-card
+    *ngFor="let character of characters"
+    [routerLink]="['/characters', character.id]"
+  >
+    <mat-card-header>
+      <mat-card-title>{{ character.name }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list class="mat-list-horizontal">
+        <mat-list-item>
+          <span matListItemTitle>Species</span>
+          <span matListItemLine>{{ character.species }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span matListItemTitle>Gender</span>
+          <span matListItemLine>{{ character.gender }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span matListItemTitle>House</span>
+          <span matListItemLine>{{ character.house }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span matListItemTitle>Ancestry</span>
+          <span matListItemLine>{{ character.ancestry }}</span>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+  <div class="button-container">
+    <button type="button" class="btn btn-warning" (click)="loadMore()">
+      Cargar más
+    </button>
   </div>
+</div>

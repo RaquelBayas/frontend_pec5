@@ -4,6 +4,7 @@
     <button type="button" class="btn btn-primary details-btn" (click)="showContainer = true">Show all details</button>
   </div>
 </div>
+
 <div style="text-align: center">
   <h1>{{ character.name }}</h1>
 </div>
@@ -13,68 +14,58 @@
     <img mat-card-image [src]="character.image" alt="{{ character.name }}" />
   </div>
   <div>
-    <table>
-      <tr>
-        <th>Name</th>
-        <td>{{ character.name }}</td>
-      </tr>
-
-      <tr>
-        <th>Species</th>
-        <td>{{ character.species }}</td>
-      </tr>
-      <tr>
-        <th>Gender</th>
-        <td>{{ character.gender }}</td>
-      </tr>
-      <tr>
-        <th>House</th>
-        <td>{{ character.house }}</td>
-      </tr>
-      <tr>
-        <th>Date of Birth</th>
-        <td>{{ character.dateOfBirth }}</td>
-      </tr>
-      <tr>
-        <th>Year of Birth</th>
-        <td>{{ character.yearOfBirth }}</td>
-      </tr>
-      <tr>
-        <th>Wizard</th>
-        <td>{{ character.wizard }}</td>
-      </tr>
-      <tr>
-        <th>Ancestry</th>
-        <td>{{ character.ancestry }}</td>
-      </tr>
-      <tr>
-        <th>Eye colour</th>
-        <td>{{ character.eyeColour }}</td>
-      </tr>
-      <tr>
-        <th>Hair colour</th>
-        <td>{{ character.hairColour }}</td>
-      </tr>
-      <tr>
-        <th>Patronus</th>
-        <td>{{ character.patronus }}</td>
-      </tr>
-      <tr>
-        <th>Hogwarts Student</th>
-        <td>{{ character.hogwartsStudent }}</td>
-      </tr>
-      <tr>
-        <th>Hogwarts Staff</th>
-        <td>{{ character.hogwartsStaff }}</td>
-      </tr>
-      <tr>
-        <th>Actor</th>
-        <td>{{ character.house }}</td>
-      </tr>
-      <tr>
-        <th>Alive</th>
-        <td>{{ character.alive }}</td>
-      </tr>
-    </table>
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>Name</mat-panel-title>
+          <mat-panel-description>{{ character.name }}</mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-list>
+          <mat-list-item>
+            <span mat-line>Species: {{ character.species }}</span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Gender: {{ character.gender }} </span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>House: {{ character.house }}</span> 
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Date of Birth: {{ character.dateOfBirth }}</span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Year of Birth: {{ character.yearOfBirth }}</span> 
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Wizard: {{ character.wizard }}</span> 
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Ancestry: {{ character.ancestry }}</span> 
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Eye colour: {{ character.eyeColour }}</span> 
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Hair colour: {{ character.hairColour }}</span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Patronus: {{ character.patronus }}</span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Hogwarts Student: {{ character.hogwartsStudent }}</span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Hogwarts Staff: {{ character.hogwartsStaff }}</span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Actor: {{ character.actor }}</span>
+          </mat-list-item>
+          <mat-list-item>
+            <span mat-line>Alive: {{ character.alive }}</span>
+          </mat-list-item>
+        </mat-list>
+      </mat-expansion-panel>
+    </mat-accordion>
+    
   </div>
 </div>

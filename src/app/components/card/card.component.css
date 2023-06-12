@@ -18,3 +18,8 @@ mat-card {
   display: flex;
   flex-direction: row;
 }
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}

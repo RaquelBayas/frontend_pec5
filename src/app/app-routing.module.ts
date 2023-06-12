@@ -8,11 +8,10 @@ const routes: Routes = [
     path: '',
     component: ListComponent,
   },
+  { path: 'characters/:id', component: DetailComponent },
   {
     path: '**', component: ListComponent
   },
-  { path: 'characters/:id', component: DetailComponent },
-
 ];
 
 @NgModule({

@@ -13,7 +13,10 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { GridComponent } from './components/grid/grid.component';
 import { CardComponent } from './components/card/card.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
+import { ServiceWorkerModule } from '@angular/service-worker'; 
+import {MatExpansionModule} from '@angular/material/expansion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -33,6 +36,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     MatIconModule,
     MatButtonToggleModule,
     MatProgressSpinnerModule,
+    MatExpansionModule,
+    BrowserAnimationsModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable

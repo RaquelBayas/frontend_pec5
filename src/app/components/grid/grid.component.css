@@ -10,3 +10,8 @@ table tr:hover {
   background-color: #f2e6c2;
   cursor: pointer;
 }
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
