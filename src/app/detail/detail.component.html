@@ -9,11 +9,11 @@
   <h1>{{ character.name }}</h1>
 </div>
 
-<div *ngIf="showContainer" class="container">
+<div class="container">
   <div>
     <img mat-card-image [src]="character.image" alt="{{ character.name }}" />
   </div>
-  <div>
+  <div *ngIf="showContainer">
     <mat-accordion>
       <mat-expansion-panel>
         <mat-expansion-panel-header>
