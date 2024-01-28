@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1686586543858,
-  "index": "/frontend_pec5/index.html",
+  "timestamp": 1706445294471,
+  "index": "C:/Program Files/Git/frontend_pec5/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/frontend_pec5/favicon.ico",
-        "/frontend_pec5/index.html",
-        "/frontend_pec5/main.a47800ab7186a698.js",
-        "/frontend_pec5/manifest.webmanifest",
-        "/frontend_pec5/polyfills.8289cd2560fa2732.js",
-        "/frontend_pec5/runtime.2f59f58aee057fde.js",
-        "/frontend_pec5/styles.e99b3275d67c6a49.css"
+        "C:/Program Files/Git/frontend_pec5/favicon.ico",
+        "C:/Program Files/Git/frontend_pec5/index.html",
+        "C:/Program Files/Git/frontend_pec5/main.c76e7830b0c9833a.js",
+        "C:/Program Files/Git/frontend_pec5/manifest.webmanifest",
+        "C:/Program Files/Git/frontend_pec5/polyfills.8289cd2560fa2732.js",
+        "C:/Program Files/Git/frontend_pec5/runtime.2f59f58aee057fde.js",
+        "C:/Program Files/Git/frontend_pec5/styles.e99b3275d67c6a49.css"
       ],
       "patterns": [
         "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css"
@@ -31,14 +31,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/frontend_pec5/assets/icons/icon-128x128.png",
-        "/frontend_pec5/assets/icons/icon-144x144.png",
-        "/frontend_pec5/assets/icons/icon-152x152.png",
-        "/frontend_pec5/assets/icons/icon-192x192.png",
-        "/frontend_pec5/assets/icons/icon-384x384.png",
-        "/frontend_pec5/assets/icons/icon-512x512.png",
-        "/frontend_pec5/assets/icons/icon-72x72.png",
-        "/frontend_pec5/assets/icons/icon-96x96.png"
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-128x128.png",
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-144x144.png",
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-152x152.png",
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-192x192.png",
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-384x384.png",
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-512x512.png",
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-72x72.png",
+        "C:/Program Files/Git/frontend_pec5/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -74,21 +74,21 @@
     }
   ],
   "hashTable": {
-    "/frontend_pec5/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "/frontend_pec5/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "/frontend_pec5/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "/frontend_pec5/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "/frontend_pec5/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/frontend_pec5/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/frontend_pec5/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "/frontend_pec5/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/frontend_pec5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/frontend_pec5/index.html": "316d7890d92f51cc05921f92056e0d0e0e6b5fc0",
-    "/frontend_pec5/main.a47800ab7186a698.js": "3b896662f5e69ea88f17d9af682726c6c7ff790e",
-    "/frontend_pec5/manifest.webmanifest": "f10ff7df6cecc07c24a32cbba9474189668836eb",
-    "/frontend_pec5/polyfills.8289cd2560fa2732.js": "dce3bc0629b597d251a0d3e3ecd0928395c10efa",
-    "/frontend_pec5/runtime.2f59f58aee057fde.js": "bc6f7a347ea5b38917e914d8bcaf77218e5f4e2c",
-    "/frontend_pec5/styles.e99b3275d67c6a49.css": "fe5882365b0fe4baf3e1022909fc8801afb879b6"
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "C:/Program Files/Git/frontend_pec5/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "C:/Program Files/Git/frontend_pec5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "C:/Program Files/Git/frontend_pec5/index.html": "fe84464a0b50860ff33d83a91cfed5a44101cd57",
+    "C:/Program Files/Git/frontend_pec5/main.c76e7830b0c9833a.js": "2829e9022bd10f0143c2602abc9dbd5c90d70c18",
+    "C:/Program Files/Git/frontend_pec5/manifest.webmanifest": "f10ff7df6cecc07c24a32cbba9474189668836eb",
+    "C:/Program Files/Git/frontend_pec5/polyfills.8289cd2560fa2732.js": "dce3bc0629b597d251a0d3e3ecd0928395c10efa",
+    "C:/Program Files/Git/frontend_pec5/runtime.2f59f58aee057fde.js": "bc6f7a347ea5b38917e914d8bcaf77218e5f4e2c",
+    "C:/Program Files/Git/frontend_pec5/styles.e99b3275d67c6a49.css": "fe5882365b0fe4baf3e1022909fc8801afb879b6"
   },
   "navigationUrls": [
     {
